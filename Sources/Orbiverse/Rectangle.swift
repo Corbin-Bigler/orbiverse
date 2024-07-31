@@ -1,11 +1,11 @@
 import Foundation
 
-struct Rectangle: Shape {
-    var position: Point
-    let size: Vector
+public struct Rectangle: Shape {
+    public var position: Point
+    public let size: Vector
     
-    var left: Float { position.x }
-    var right: Float { position.x + size.width }
-    var top: Float { position.y }
-    var bottom: Float { position.x + size.height }
+    public var left: Float { position.x }
+    public var right: Float { position.x + size.width }
+    public var top: Float { position.y }
+    public var bottom: Float { position.x + size.height }
 }

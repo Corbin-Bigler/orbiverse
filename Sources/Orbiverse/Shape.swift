@@ -1,5 +1,5 @@
 import Foundation
 
-protocol Shape {
+public protocol Shape {
     var position: Point { get set }
 }
