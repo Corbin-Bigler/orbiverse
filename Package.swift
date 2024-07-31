@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Orbiverse",
+    name: "orbiverse",
     platforms: [
         .iOS(.v14),
     ],
