@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Angle {
+public struct Angle: Codable {
     public static let zero = Angle(degrees: 0)
     public static let right = Angle(degrees: 90)
     public static let straight = Angle(degrees: 180)
